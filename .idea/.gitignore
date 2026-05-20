@@ -1,10 +1,19 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Ignored default folder with query files
-/queries/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+# Compilação e Executáveis
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+
+# Pastas de Build
+/cmake-build-debug/
+/cmake-build-release/
+/build/
+.cmake/
+
+# IDE - CLion / JetBrains
+.idea/
