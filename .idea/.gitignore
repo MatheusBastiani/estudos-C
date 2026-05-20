@@ -1,4 +1,5 @@
 # Compilação e Executáveis
+**/*.exe
 *.exe
 *.out
 *.app
