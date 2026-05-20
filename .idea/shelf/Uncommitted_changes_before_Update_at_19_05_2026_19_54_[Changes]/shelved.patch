@@ -1,0 +1,42 @@
+Index: main.c
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.c b/main.c
+--- a/main.c	(revision 7479247f08b4261a8d7c1ddf8acb5863c084e7a2)
++++ b/main.c	(date 1779151610010)
+@@ -1,0 +1,16 @@
++#include <stdio.h>
++#include <inttypes.h>
++
++int main(void) {
++
++    int8_t lado = 0;
++
++    printf("Insira um lado do quadrado:");
++    scanf("%d" , &lado);
++
++    int8_t area = lado * lado;
++
++    printf("Area do quadrado:", area);
++
++    return 0;
++}
+\ No newline at end of file
+Index: CMakeLists.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+new file mode 100644
+--- /dev/null	(date 1778804351387)
++++ b/CMakeLists.txt	(date 1778804351387)
+@@ -0,0 +1,6 @@
++cmake_minimum_required(VERSION 3.20)
++project(estudos_C C)
++
++set(CMAKE_C_STANDARD 99)
++
++add_executable(Estudos-C Exercicios_main.c)

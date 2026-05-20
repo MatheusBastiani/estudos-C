@@ -1,0 +1,20 @@
+# Compilação e Executáveis
+**/*.exe
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+
+# Pastas de Build
+/cmake-build-debug/
+/cmake-build-release/
+/build/
+.cmake/
+
+# IDE - CLion / JetBrains
+.idea/
