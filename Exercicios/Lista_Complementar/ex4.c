@@ -8,11 +8,13 @@ typedef uint32_t ui32;
 
 i32 main(void) {
         ui32 n = 5;
-        i32 count = 0;
+        i32 count = 1;
 
         clock_t inicio = clock();
 
-        for (i32 i = 6;i < 34000000;i+=2) {
+        printf("1 Numero: 6\n");
+
+        for (i32 i = 4;i < 34000000;i+=4) {
                 ui32 soma = 1;
                 i32 limite = (i32)sqrt(i);
 
